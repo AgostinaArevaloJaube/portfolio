@@ -1,20 +1,16 @@
 import { BrowserRouter } from "react-router-dom";
-import styled from "styled-components";
-import Header from "../components/Header/Header";
+import Header from "../components/Header";
+import Main from "../components/Main/Main";
 
 function App() {
 	return (
-		<div>
+		<>
 			<BrowserRouter>
 				<Header />
 				<Main />
 			</BrowserRouter>
-		</div>
+		</>
 	);
 }
-
-const Main = styled.main`
-	margin-top: 20%;
-`;
 
 export default App;
