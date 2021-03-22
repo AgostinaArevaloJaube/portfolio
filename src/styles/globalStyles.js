@@ -14,6 +14,8 @@ body {
 	height: 100vh;
 	padding: 0.5rem;
 	background-color: #faf8f8;
+};
+html {
 	scroll-behavior: smooth;
 }
 `;
