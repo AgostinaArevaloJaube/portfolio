@@ -47,7 +47,7 @@ const Hamburger = styled.div`
 
 const MenuList = styled.ul`
 	position: absolute;
-	top: 3.3rem;
+	top: 2.5rem;
 	left: 0;
 	width: 100%;
 	height: ${({ isOpen }) => (isOpen ? "100vh" : "0")};
@@ -57,6 +57,10 @@ const MenuList = styled.ul`
 	overflow: hidden;
 	background: ${theme.colors.mobileGradient};
 	color: #fff;
+
+	@media (min-width: 340px) {
+		top: 2.8rem;
+	}
 
 	@media ${theme.mediaQueries.above600} {
 		position: relative;

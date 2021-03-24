@@ -27,7 +27,7 @@ const HeaderContainer = styled.header`
 	align-items: center;
 	box-shadow: ${theme.colors.darkBoxShadow};
 	background-color: #faf8f8;
-	z-index: 2000;
+	z-index: 5000;
 `;
 
 const Title = styled.h1`
