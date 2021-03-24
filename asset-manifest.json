@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.0a6c5a3d.chunk.js",
-    "main.js.map": "/static/js/main.0a6c5a3d.chunk.js.map",
+    "main.js": "/static/js/main.10d7a608.chunk.js",
+    "main.js.map": "/static/js/main.10d7a608.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.7046fdd5.chunk.js": "/static/js/2.7046fdd5.chunk.js",
@@ -11,11 +11,11 @@
     "static/media/CV-Agostina-Arevalo-Jaube.75efe89d.pdf": "/static/media/CV-Agostina-Arevalo-Jaube.75efe89d.pdf",
     "static/media/burger-closed.78756b9b.svg": "/static/media/burger-closed.78756b9b.svg",
     "static/media/burger.f9425096.svg": "/static/media/burger.f9425096.svg",
-    "static/media/foto-agos-perfiles.10319d0f.png": "/static/media/foto-agos-perfiles.10319d0f.png"
+    "static/media/foto-agos-perfiles.232e2418.png": "/static/media/foto-agos-perfiles.232e2418.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.7046fdd5.chunk.js",
-    "static/js/main.0a6c5a3d.chunk.js"
+    "static/js/main.10d7a608.chunk.js"
   ]
 }
