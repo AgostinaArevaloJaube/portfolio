@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import AboutMe from "./AboutMe";
+import AboutMe from "../Main/AboutMe";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import Stack from "./Stack";

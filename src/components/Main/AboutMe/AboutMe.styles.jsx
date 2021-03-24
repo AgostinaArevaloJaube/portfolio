@@ -1,47 +1,8 @@
 import styled from "styled-components";
-import theme from "../../styles/theme";
-import SectionContainer from "../../styles/SectionContainer";
-import FotoAgos from "../../assets/foto-agos-perfiles.webp";
+import theme from "../../../styles/theme";
+import SectionContainer from "../../../styles/SectionContainer";
 
-function AboutMe() {
-	return (
-		<AboutContainer id="about">
-			<InfoContainer>
-				<Avatar src={FotoAgos} alt="Foto de Agostina Arevalo Jaube" />
-				<Title>Agostina Arevalo Jaube</Title>
-				<Subtitle>
-					Frontend Web Devoleper <br /> React Js
-				</Subtitle>
-
-				<LocationContainer>
-					<i className="fas fa-map-marker-alt icon" />
-					<Location>Córdoba, Argentina</Location>
-				</LocationContainer>
-			</InfoContainer>
-			<Line />
-			<ParagraphContainer>
-				<Paragraph>
-					Trabajé más de 5 años como Productora Audiovisual freelance
-					desempeñando distintos roles: Coordinadora, Jefa o Asistente de
-					Producción, hasta que me interesé por el Desarrollo Web.
-				</Paragraph>
-				<Paragraph>
-					Hoy estoy buscando mi primera oportunidad laboral como Frontend Web
-					Developer.
-				</Paragraph>
-				<Paragraph>
-					Me encantaría ser parte de
-					<b>proyectos desafiantes</b>, donde se pueda{" "}
-					<b>crecer profesionalmente</b>, <b>trabajar en equipo</b> con{" "}
-					<b>tecnologías de vanguardia</b> , donde puedar colaborar en
-					propuestas innovadoras y aprender constantemente.
-				</Paragraph>
-			</ParagraphContainer>
-		</AboutContainer>
-	);
-}
-
-const AboutContainer = styled(SectionContainer)`
+export const AboutContainer = styled(SectionContainer)`
 	margin-top: 3rem;
 	text-align: center;
 
@@ -51,7 +12,7 @@ const AboutContainer = styled(SectionContainer)`
 		justify-content: center;
 	}
 `;
-const InfoContainer = styled.article`
+export const InfoContainer = styled.article`
 	margin: 3rem 0rem 0.5rem 0rem;
 
 	@media ${theme.mediaQueries.above768} {
@@ -60,7 +21,7 @@ const InfoContainer = styled.article`
 	}
 `;
 
-const Avatar = styled.img`
+export const Avatar = styled.img`
 	width: 120px;
 	border-radius: 100px;
 
@@ -72,7 +33,7 @@ const Avatar = styled.img`
 	}
 `;
 
-const Title = styled.h2`
+export const Title = styled.h2`
 	margin: 0.3rem 0 0 0;
 	font-size: ${theme.fonts.titleMobile};
 
@@ -84,7 +45,7 @@ const Title = styled.h2`
 	}
 `;
 
-const Subtitle = styled.h3`
+export const Subtitle = styled.h3`
 	font-size: ${theme.fonts.subtitleMobile};
 	background: ${theme.colors.desktopGradient};
 	-webkit-background-clip: text;
@@ -98,7 +59,7 @@ const Subtitle = styled.h3`
 	}
 `;
 
-const LocationContainer = styled.div`
+export const LocationContainer = styled.div`
 	margin: 0.5rem 0 0 0;
 	display: flex;
 	align-content: center;
@@ -112,7 +73,7 @@ const LocationContainer = styled.div`
 		-webkit-text-fill-color: transparent;
 	}
 `;
-const Location = styled.p`
+export const Location = styled.p`
 	font-size: ${theme.fonts.subtitleMobile};
 
 	@media ${theme.mediaQueries.above768} {
@@ -123,7 +84,7 @@ const Location = styled.p`
 	}
 `;
 
-const Line = styled.hr`
+export const Line = styled.hr`
 	margin: 0.8rem;
 	width: 80%;
 	height: 2px;
@@ -138,7 +99,7 @@ const Line = styled.hr`
 	}
 `;
 
-const ParagraphContainer = styled.div`
+export const ParagraphContainer = styled.div`
 	margin: 0.5rem 0rem;
 
 	@media ${theme.mediaQueries.above768} {
@@ -151,7 +112,7 @@ const ParagraphContainer = styled.div`
 	}
 `;
 
-const Paragraph = styled.p`
+export const Paragraph = styled.p`
 	font-size: ${theme.fonts.textMobile};
 
 	@media ${theme.mediaQueries.above768} {
@@ -161,5 +122,3 @@ const Paragraph = styled.p`
 		font-size: ${theme.fonts.textDesktop};
 	}
 `;
-
-export default AboutMe;
