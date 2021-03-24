@@ -77,8 +77,8 @@ function Hero() {
 const Title = styled.h2`
 	font-size: 1.5em;
 
-	@media ${theme.mediaQueries.above600} {
-		font-size: 1.8em;
+	@media ${theme.mediaQueries.above768} {
+		font-size: 2.3em;
 	}
 `;
 
@@ -104,6 +104,11 @@ width: fit-content;
 display: flex
 justify-content: center;
 font-size: 2em;
+
+@media ${theme.mediaQueries.above900} {
+		font-size: 3.5em
+	}
+
 .icons {
 	margin: 0.5rem;
 	cursor: pointer;

@@ -26,7 +26,7 @@ const HeaderContainer = styled.header`
 	padding: 0.5rem;
 	align-items: center;
 	box-shadow: ${theme.colors.darkBoxShadow};
-	background-color: #faf8f8;
+	background-color: #efeaea;
 	z-index: 5000;
 `;
 
