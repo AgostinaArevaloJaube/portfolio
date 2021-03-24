@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import theme from "../../styles/theme";
+import SectionContainer from "../../styles/SectionContainer";
 import Typewriter from "typewriter-effect";
 import CV from "../../documents/CV-Agostina-Arevalo-Jaube.pdf";
+
 function Hero() {
 	return (
-		<HeroContainer>
+		<SectionContainer id="hero">
 			<Title>
 				¡Hola! Soy <strong>Agostina</strong>
 			</Title>
@@ -68,19 +70,11 @@ function Hero() {
 					<i className="fas fa-download icons" />
 				</a>
 			</IconsContainer>
-		</HeroContainer>
+		</SectionContainer>
 	);
 }
-const HeroContainer = styled.div`
-	height: 85vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	color: #fff;
-`;
 
-const Title = styled.p`
+const Title = styled.h2`
 	font-size: 1.5em;
 
 	@media ${theme.mediaQueries.above600} {

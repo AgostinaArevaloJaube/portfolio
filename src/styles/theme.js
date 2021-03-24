@@ -10,7 +10,10 @@ const theme = {
 	fonts: {
 		primaryColor: "#656565",
 		secondaryColor: "#D98162",
-		fontFamily: "Poppins, sans-serif"
+		fontFamily: "Poppins, sans-serif",
+		titleMobile: "1.3em",
+		subtitleMobile: "0.9em",
+		textMobile: "0.6em"
 	},
 
 	mediaQueries: {
