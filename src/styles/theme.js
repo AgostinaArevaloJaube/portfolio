@@ -13,7 +13,13 @@ const theme = {
 		fontFamily: "Poppins, sans-serif",
 		titleMobile: "1.3em",
 		subtitleMobile: "0.9em",
-		textMobile: "0.6em"
+		textMobile: "0.8em",
+		titleTablet: "1.4em",
+		subtitleTablet: "1.1em",
+		textTablet: "0.9em",
+		titleDesktop: "1.5em",
+		subtitleDesktop: "1.2em",
+		textDesktop: "1em"
 	},
 
 	mediaQueries: {
